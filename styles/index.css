@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: #3b3b3b;
+}
+
+
+.container {
+    margin: auto;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container .identity {
+    text-align: center;
+}
+
+fieldset.booking {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+fieldset.btns {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+fieldset.btns button {
+    padding: .5rem;
+    cursor: pointer;
+}
