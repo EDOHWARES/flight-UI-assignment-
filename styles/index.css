@@ -14,7 +14,7 @@ body {
 }
 
 
-.container {
+.icontainer {
     margin: auto;
     width: 30rem;
     display: flex;
@@ -22,7 +22,19 @@ body {
     gap: 3rem;
 }
 
-.container .identity {
+/* .icontainer-hidden {
+    display: none;
+} */
+
+.reset {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.icontainer .identity {
     text-align: center;
 }
 
