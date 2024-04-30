@@ -1,6 +1,8 @@
 body {
     height: fit-content;
     display: block;
+    font-family: "Manrope", sans-serif;
+    color: #3b3b3b;
 }
 
 
@@ -167,6 +169,68 @@ section.hero .hero-container h1 {
     border-top-color: #F76641;
     border-top-right-radius: #F76641;
     border-top-left-radius: #F76641;
+}
+
+section.fields {
+    padding: 2rem;
+}
+
+section.fields .container {
+    width: 100%;
+    display: grid;
+    align-items: start;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 2rem;
+}
+
+section.fields .container div fieldset {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.fields .container div .profile {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid gray;
+}
+
+section.fields .container .cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section.fields legend {
+    font-weight: bold;
+}
+
+section.fields .container fieldset.btnss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.fields .container fieldset.btnss button {
+    padding: 1rem 2rem;
+}
+
+section.fields .container input,
+section.fields .container select {
+    height: 1.5rem;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-indent: 5px;
+    margin-left: 1rem;
+}
+
+section.fields .container .upload {
+    padding: 1rem 2rem;
 }
 
 @media (max-width: 700px) {

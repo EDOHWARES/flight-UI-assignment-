@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-body {
+body.index {
     font-family: "Manrope", sans-serif;
     display: flex;
     align-items: center;
     height: 100vh;
     background-color: whitesmoke;
     color: #3b3b3b;
+    background-color: rgb(244, 238, 131);
 }
 
 
